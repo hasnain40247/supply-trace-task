@@ -1,0 +1,4 @@
+pandas==2.2.2
+flask==3.0.3
+flasgger==0.9.7.1
+               

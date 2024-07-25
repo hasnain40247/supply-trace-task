@@ -767,3 +767,1081 @@ INFO:app:Fetching locations for company with id 1
 INFO:werkzeug:127.0.0.1 - - [24/Jul/2024 23:50:20] "GET /api/companies/1/locations HTTP/1.1" 200 -
 INFO:app:Fetching locations for company with id 1
 INFO:werkzeug:127.0.0.1 - - [24/Jul/2024 23:50:20] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 863-267-585
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:03:06] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:03:06] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:03:45] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:03:45] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:19:18] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:19:18] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:19:18] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:19:18] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:19:20] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:19:20] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:19:21] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:19:21] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:19:21] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:19:21] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:19:22] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:19:22] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:26:21] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:26:21] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:26:29] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:26:29] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:26:29] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:26:29] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:26:30] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:26:30] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:26:30] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:26:30] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:30:31] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:30:31] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:30:31] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:30:31] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:37:10] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:37:10] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:37:10] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:37:10] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 4
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:38:21] "GET /api/companies/4 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 4
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:38:21] "GET /api/companies/4 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 4
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:38:21] "GET /api/companies/4/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 4
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 08:38:21] "GET /api/companies/4/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 09:01:29] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 09:01:29] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 09:01:29] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 09:01:29] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 09:10:13] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 09:10:13] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 09:10:13] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 09:10:13] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 09:18:45] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 09:18:45] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 09:18:55] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 09:18:55] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 09:18:55] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 09:18:55] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:17:20] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:17:20] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:17:20] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:17:20] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:17:36] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:17:36] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:17:36] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:17:36] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:17:43] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:17:43] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:17:43] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:17:43] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:24:10] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:24:10] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:25:08] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:25:08] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:25:08] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:25:08] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:28:48] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:28:48] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:28:48] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:28:48] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:31:33] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:31:33] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:31:33] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:31:33] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:32:46] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:32:46] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:32:46] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:32:46] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:42:58] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:42:58] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:42:59] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:42:59] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:43:10] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:43:10] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:43:10] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:43:10] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:43:16] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:43:16] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:43:16] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 10:43:16] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:00:24] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:00:24] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:00:24] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:00:24] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:04:30] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:04:30] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:04:30] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:04:30] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:04:57] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:04:57] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:04:57] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:04:57] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:15:44] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:15:44] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:15:52] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:15:52] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:15:52] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:15:52] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:18:16] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:18:16] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:18:16] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:18:16] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:19:06] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:19:06] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:19:06] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:19:06] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:22:38] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:22:38] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:22:38] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:22:38] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:22:53] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:22:53] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:22:53] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:22:53] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:23:43] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:23:43] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:23:46] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:23:46] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:23:46] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:23:46] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:27:12] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:27:12] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:27:12] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:27:12] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:28:20] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:28:20] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:28:20] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:28:20] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:29:09] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:29:09] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:29:09] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:29:09] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:29:29] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:29:29] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:29:29] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:29:29] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:55:47] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:55:47] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:55:56] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:55:56] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:55:58] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:55:58] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:55:58] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:55:58] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:56:00] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:56:00] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:56:00] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:56:00] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 4
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:56:05] "GET /api/companies/4 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 4
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:56:05] "GET /api/companies/4 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 4
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:56:05] "GET /api/companies/4/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 4
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:56:05] "GET /api/companies/4/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 4
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:57:12] "GET /api/companies/4 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 4
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:57:12] "GET /api/companies/4 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 4
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:57:12] "GET /api/companies/4/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 4
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:57:12] "GET /api/companies/4/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 4
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:57:50] "GET /api/companies/4 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 4
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:57:50] "GET /api/companies/4 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 4
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:57:50] "GET /api/companies/4/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 4
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 11:57:50] "GET /api/companies/4/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 4
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:01:26] "GET /api/companies/4 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 4
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:01:26] "GET /api/companies/4 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 4
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:01:26] "GET /api/companies/4/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 4
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:01:26] "GET /api/companies/4/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:01:31] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:01:31] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:01:31] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:01:31] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 863-267-585
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:01:58] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:01:58] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:01:58] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:01:58] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 863-267-585
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:07:18] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:07:18] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:07:18] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:07:18] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:19:12] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:19:12] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:19:19] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:19:19] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:19:22] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:19:22] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:19:22] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:19:22] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:31:32] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:31:32] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:31:32] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:31:32] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:34:12] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:34:12] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:34:12] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:34:12] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:35:58] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:35:58] "GET /api/companies HTTP/1.1" 200 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:35:59] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:35:59] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:41:32] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:41:32] "GET /api/companies HTTP/1.1" 200 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:41:34] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:41:34] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:47:25] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:47:25] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:48:28] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:48:28] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:48:30] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:48:30] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:48:30] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:48:30] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:50:29] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:50:29] "GET /api/companies HTTP/1.1" 200 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:50:30] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:50:30] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:50:33] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:50:33] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:50:34] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:50:34] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:50:34] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:50:34] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:51:15] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:51:15] "GET /api/companies HTTP/1.1" 200 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:51:17] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:51:17] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:51:18] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:51:18] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:55:15] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:55:15] "GET /api/companies HTTP/1.1" 200 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:55:16] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:55:16] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:59:31] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 12:59:31] "GET /api/companies HTTP/1.1" 200 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:14:27] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:14:27] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:14:28] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:14:28] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:14:29] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:14:29] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:14:29] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:14:29] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:18:42] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:18:42] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:18:42] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:18:42] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:29:13] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:29:13] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:29:13] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:29:13] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:29:14] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:29:14] "GET /api/companies HTTP/1.1" 200 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:29:15] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:29:15] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:29:17] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:29:17] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:29:19] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:29:19] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:29:19] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:29:19] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:31:05] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:31:05] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:31:06] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:31:06] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:31:06] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:31:06] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:31:15] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:31:15] "GET /api/companies HTTP/1.1" 200 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:31:16] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:31:16] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:40:22] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:40:22] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:45:35] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:45:35] "GET /api/companies HTTP/1.1" 200 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:45:36] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:45:36] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:49:45] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:49:45] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:50:56] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:50:56] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:50:56] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:50:56] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:50:57] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:50:57] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:50:58] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:50:58] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:50:58] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:50:58] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:50:58] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:50:58] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:50:58] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:50:58] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:55:55] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:55:55] "GET /api/companies HTTP/1.1" 200 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:55:57] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:55:57] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:55:58] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:55:58] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:56:00] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:56:00] "GET /api/companies HTTP/1.1" 200 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:59:27] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:59:27] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:59:33] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 13:59:33] "GET /api/companies HTTP/1.1" 200 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:00:38] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:00:38] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:00:39] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:00:39] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:00:40] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:00:40] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:00:40] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:00:40] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:03:13] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:03:13] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:03:16] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:03:16] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:03:16] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:03:16] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:46:22] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:46:22] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:48:57] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:48:57] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:48:57] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:48:57] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:51:23] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:51:23] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:51:41] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:51:41] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:51:41] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:51:41] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 863-267-585
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:57:03] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:57:03] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:57:03] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:57:03] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 863-267-585
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:57:28] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 14:57:28] "GET /api/companies HTTP/1.1" 200 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 15:15:35] "[33mGET /main.ac69bc9b909d81f87d3d.hot-update.json HTTP/1.1[0m" 404 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:17:31] "GET /api/companies HTTP/1.1" 200 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:17:32] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:25:04] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:26:34] "[33mGET /api/companies/emk HTTP/1.1[0m" 404 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:29:24] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:29:25] "GET /api/companies HTTP/1.1" 200 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:29:27] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:32:37] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:32:37] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:33:57] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:34:14] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:43:01] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:43:01] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:48:13] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:49:20] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:50:55] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:50:55] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:51:16] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:53:27] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:53:39] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:53:47] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:54:37] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:55:36] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:55:45] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:57:08] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:58:22] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:58:22] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:59:14] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:59:34] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 16:59:34] "GET /api/companies HTTP/1.1" 200 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:00:05] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:00:05] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:00:07] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:00:07] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:00:08] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:00:08] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:00:08] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:00:08] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:00:15] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:00:15] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:16:57] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:16:57] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:16:58] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:16:58] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:19:43] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:19:43] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:19:43] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:19:43] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:25:05] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:25:05] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:25:05] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:25:05] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:27:02] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:27:02] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:45:12] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:45:12] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:45:12] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:45:12] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:45:57] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:45:57] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:45:57] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:45:57] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:48:27] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:48:27] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:48:27] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:48:27] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:49:19] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:49:19] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:49:19] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:49:19] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:49:27] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:49:27] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:49:27] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:49:27] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:54:23] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:54:23] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:54:23] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:54:23] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:55:39] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:55:39] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:55:39] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:55:39] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:56:58] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:56:58] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:56:58] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:56:59] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:58:23] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:58:23] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:58:24] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 17:58:24] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:01:34] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:01:34] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:07:28] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:07:28] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:07:28] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:07:28] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:07:34] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:07:34] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:07:34] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:07:34] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:07:45] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:07:45] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:07:45] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:07:45] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:09:50] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:09:50] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:09:50] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:09:50] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:09:51] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:09:51] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:09:51] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:09:51] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:09:57] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:09:57] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:09:57] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:09:57] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:11:37] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:11:37] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:11:38] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:11:38] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:11:51] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:11:51] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:11:51] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:11:51] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:11:54] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:11:54] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:11:54] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:11:54] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:12:14] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:12:14] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:12:14] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:12:14] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:16:07] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:16:07] "GET /api/companies/2 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:16:07] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 2
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:16:07] "GET /api/companies/2/locations HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:16:39] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:16:39] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:16:41] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:16:41] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:16:41] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:16:41] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:16:46] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:16:46] "GET /api/companies HTTP/1.1" 200 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:16:47] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:16:47] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:16:48] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:16:48] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:16:56] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:16:56] "GET /api/companies/1/locations HTTP/1.1" 200 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:18:07] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:18:07] "[33mGET /api/companies/e HTTP/1.1[0m" 404 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:18:09] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching all companies
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:18:09] "GET /api/companies HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:30:18] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:30:18] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:30:18] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:30:18] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:34:39] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:34:39] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:34:39] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:34:39] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:34:46] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:34:46] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:34:46] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:34:46] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:48:21] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:48:21] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:48:21] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:48:21] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:49:49] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching company with id: 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:49:49] "GET /api/companies/1 HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:49:49] "GET /api/companies/1/locations HTTP/1.1" 200 -
+INFO:app:Fetching locations for company with id 1
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:49:49] "GET /api/companies/1/locations HTTP/1.1" 200 -
+ERROR:app:404 error: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+INFO:werkzeug:127.0.0.1 - - [25/Jul/2024 18:49:49] "[33mGET /logo192.png HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in '/Users/hasnain/Downloads/supply-trace-task/back-end/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 863-267-585

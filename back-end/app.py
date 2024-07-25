@@ -92,7 +92,6 @@ def get_company(company_id):
     app.logger.info(f'Fetching company with id: {company_id}')
     try:
         company = companies[companies['company_id'] == company_id].to_dict(orient='records')
-        print(company)
         if not company:
             app.logger.warning(f'Company with id {company_id} not found')
             abort(404, description="Company not found")
