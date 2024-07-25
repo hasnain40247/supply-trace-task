@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background-color: #fef3e2;
+}
+
+.active {
+  color: #606676;
+}
+
+.inactive {
+  color: #708871;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10rem !important;
+    justify-content: start !important;
+  }
+  .navbar {
+    padding: 1rem 2rem !important;
+  }
+  .navItems {
+    display: none !important;
+  }
+  .navItemsResponsive {
+    width: 100% !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+  .hamburger {
+    display: flex !important;
+  }
+  .title {
+    font-size: 3rem !important;
+  }
+  .warntitle {
+    font-size: 1.4rem !important;
+  }
+  .listcontainer {
+    padding: 10rem 0 0 0 !important;
+  }
+  .companytableouter {
+    width: 90% !important;
+  }
+  .companytable {
+    overflow-y: visible !important;
+  }
+  .custinput {
+    font-size: 1.3rem !important;
+  }
+
+  .companyrecord {
+    font-size: 0.8rem !important;
+  }
+
+  .stickyrecord {
+    font-size: 0.9rem !important;
+  }
+
+  .subtitle {
+    font-size: 1rem !important;
+    width: 60vw !important;
+  }
+  .innerContainer {
+    flex-direction: column-reverse !important;
+  }
+  .companyDetailContainer {
+    padding: 9rem 0 0 0 !important;
+  }
+  .mapContainer {
+    flex: none !important;
+    height: 30vh !important;
+    width: 95% !important;
+  }
+  .detailsContainer {
+    margin: 0 !important;
+    width: 90% !important;
+  }
+  .detailsContainer h1 {
+    align-self: center !important;
+  }
+
+  .detailsContainer p {
+    align-self: center !important;
+  }
+  .detailsContainer .stickyrecord {
+    justify-content: center !important;
+  }
+  .detailsContainer .companyrecord {
+    justify-content: center !important;
+  }
+}
