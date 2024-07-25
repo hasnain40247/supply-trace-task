@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@vis.gl/react-google-maps": "^1.1.0",
     "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
     "leaflet": "^1.9.4",
     "react": "^19.0.0-rc-ab2135c7-20240724",
     "react-dom": "^19.0.0-rc-ab2135c7-20240724",
