@@ -9,7 +9,6 @@ const companyTableStyles = {
     backgroundColor: "#F7F9F2",
     color: "#606676",
     display: "flex",
-    flex: 1,
   },
 
   companytableouter: {
