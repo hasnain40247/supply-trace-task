@@ -36,12 +36,7 @@ const Visualization = ({
       >
         <Bar data={distanceChartData} options={distanceChartOptions} />
       </div>
-      <div
-        style={visualizationStyles.distanceContainer}
-        className="distanceContainer"
-      >
-        <Bar data={distributionChartData} options={distributionChartOptions} />
-      </div>
+    
       <div
         style={{
           ...visualizationStyles.distanceContainer,
