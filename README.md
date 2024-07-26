@@ -1,6 +1,15 @@
 # Supply-Trace-Task
 
 This project sets up a company data viewer, utilizing a Flask backend API with a React frontend, all containerized using Docker.
+## Task Breakdown
+1. CompanyListPage : 
+   - Displays a search and table of companies - takes you to the details when clicked.
+2. CompanyDetailsPage : 
+   - Needs a company to be clicked for redirection - navigating from navbar asks user to go back to list and select a company to view details
+   -  Displays the locations in a table - upon hovering/clicking , the map component updates. The map has markers to view the address.
+   - Location distribution visualizations are stacked below - accessible by scrolling down the page.
+3. API documentation is served by Swagger.
+4. Error Logging is done using StreamHandler.
 
 ## Project Structure
 
