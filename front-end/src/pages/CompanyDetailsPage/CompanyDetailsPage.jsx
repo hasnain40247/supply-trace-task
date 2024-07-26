@@ -27,7 +27,14 @@ const CompanyDetailsPage = () => {
   const [center, setCenter] = useState(null);
   const [distanceData, setDistanceData] = useState([]);
   const [locationDistribution, setLocationDistribution] = useState([]);
-
+  /**
+   * getRandomColor function
+   *
+   * This function allows a random color generated when plotting state-wise
+   * distributions to distinguish between the states.
+   *
+   * @returns {String} The color values in hsl format.
+   */
   const getRandomColor = () => {
     const hue = Math.floor(Math.random() * 360);
     const saturation = 50 + Math.floor(Math.random() * 30); // Pastel colors typically have 50-80% saturation
@@ -56,7 +63,7 @@ const CompanyDetailsPage = () => {
           lng: companyResponse.data[0].longitude,
         });
         setLocations(locationsResponse.data);
-        // Calculate distance data for visualization
+        // Calculate distances from the main location based on their coordinates
         const distanceData = locationsResponse.data
           .filter(
             (location) =>
@@ -74,7 +81,6 @@ const CompanyDetailsPage = () => {
             ),
           }));
         setDistanceData(distanceData);
-        // Calculate location distribution
         const states = locationsResponse.data.map((location) =>
           extractState(location.address)
         );
@@ -106,6 +112,15 @@ const CompanyDetailsPage = () => {
     setCenter({ lat: location.latitude, lng: location.longitude });
   };
 
+  /**
+   * calculateDistance function
+   *
+   * This function computes the distance in miles between two coordinates.
+   * It is inaccurate since it is based on geometric computation.
+   * @param {Object} loc1 First location object
+   * @param {Object} loc2 Second location object.
+   * @returns {String} The color values in hsl format.
+   */
 
   const calculateDistance = (loc1, loc2) => {
     const R = 3959; // Radius of the Earth in miles
@@ -120,13 +135,20 @@ const CompanyDetailsPage = () => {
     const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
     return R * c;
   };
-
+  /**
+   * extractState
+   *
+   * This function simply strips the states from the address - helps with the location distribution plots.
+   * @param {String} address the address obtained from the server.
+   * @returns {String} A matched/sliced string indicating the state.
+   */
   const extractState = (address) => {
     const match = address.match(/, ([A-Z]{2}) \d{5}/);
     return match ? match[1] : "Unknown";
   };
 
-  // Distance chart data
+  // Objects to map and create the plot objects.
+
   const distanceChartData = {
     labels: distanceData.map((data) => data.name),
     datasets: [
@@ -139,7 +161,6 @@ const CompanyDetailsPage = () => {
     ],
   };
 
-  // Location distribution data
   const distributionChartData = {
     labels: locationDistribution.map((data) => data.state),
     datasets: [
@@ -152,23 +173,8 @@ const CompanyDetailsPage = () => {
       },
     ],
   };
-  if (company_id === "e") {
-    return (
-      <div
-        style={{
-          ...globalStyles.container,
-          alignItems: "center",
-          flexDirection: "column",
-          justifyContent: "center",
-        }}
-      >
-        <BackNavigation />
-        <p style={globalStyles.subtitle}>
-          Select A Company To View Its Details.
-        </p>
-      </div>
-    );
-  }
+
+  // Objects to handle customizations for the plots.
 
   const distanceChartOptions = {
     responsive: true,
@@ -189,7 +195,23 @@ const CompanyDetailsPage = () => {
       },
     },
   };
-
+  if (company_id === "e") {
+    return (
+      <div
+        style={{
+          ...globalStyles.container,
+          alignItems: "center",
+          flexDirection: "column",
+          justifyContent: "center",
+        }}
+      >
+        <BackNavigation />
+        <p style={globalStyles.subtitle}>
+          Select A Company To View Its Details.
+        </p>
+      </div>
+    );
+  }
 
   return (
     <div

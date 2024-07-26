@@ -3,6 +3,18 @@ import visualizationStyles from "./VisualizationStyles";
 import globalStyles from "../../styles/GloblStyles";
 import { Bar } from "react-chartjs-2";
 import { Pie } from "react-chartjs-2";
+
+/**
+ * Visualization component
+ *
+ * This component renders vizualizations for location distance and distribution by state.
+ *
+ * @param {Object} distanceChartData - Object of the data to be shown for distance plot.
+ * @param {Object} distributionChartData - Object of the data to be shown for location distribution plot.
+ * @param {Object} distanceChartOptions - Object of the customization of the distance plots
+ * @param {Object} distributionChartOptions - Object of the customization of the distribution plots.
+ * @returns {JSX.Element} The Visualizationcomponent
+ */
 const Visualization = ({
   distributionChartOptions,
   distributionChartData,
@@ -18,16 +30,22 @@ const Visualization = ({
         Location Visualziation
       </h1>
 
-      <div style={visualizationStyles.distanceContainer} className="distanceContainer">
+      <div
+        style={visualizationStyles.distanceContainer}
+        className="distanceContainer"
+      >
         <Bar data={distanceChartData} options={distanceChartOptions} />
       </div>
-      <div style={visualizationStyles.distanceContainer} className="distanceContainer">
+      <div
+        style={visualizationStyles.distanceContainer}
+        className="distanceContainer"
+      >
         <Bar data={distributionChartData} options={distributionChartOptions} />
       </div>
       <div
         style={{
           ...visualizationStyles.distanceContainer,
-        ...visualizationStyles.distPieContainer
+          ...visualizationStyles.distPieContainer,
         }}
         className="pieContainer"
       >
