@@ -16,25 +16,35 @@ import locationTableStyles from "./LocationTableStyles";
 
 const LocationTable = ({ locations, handleLocationHover }) => {
   return (
-    <div style={locationTableStyles.companytableouter} className="conpanytableouter">
+    <div
+      style={locationTableStyles.companytableouter}
+      className="conpanytableouter"
+    >
       <div
         style={{
           ...globalStyles.stickyrecord,
           ...locationTableStyles.stickyrecord,
         }}
-         className="stickyrecord"
+        className="locationstickyrecord"
       >
+        <p>Company Name</p>
         <p>Company Address</p>
+        <p>Latitude</p>
+
+        <p>Longitude</p>
       </div>
       <div style={globalStyles.companytable}>
         {locations.map((location) => (
           <div
             key={location.location_id}
             style={globalStyles.companyrecord}
-            className="companyrecord"
+            className="locationrecord"
             onMouseEnter={() => handleLocationHover(location)}
           >
+            <p>{location.name}</p>
             <p>{location.address}</p>
+            <p>{location.latitude}</p>
+            <p>{location.longitude}</p>
           </div>
         ))}
       </div>

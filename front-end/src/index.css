@@ -41,6 +41,7 @@ body {
   }
   .warntitle {
     font-size: 1.4rem !important;
+    margin-bottom: 2rem !important;
   }
   .listcontainer {
     padding: 10rem 0 0 0 !important;
@@ -69,8 +70,7 @@ body {
   }
   .innerContainer {
     flex-direction: column-reverse !important;
-    margin-top:9rem !important;
-
+    margin-top: 9rem !important;
   }
   .companyDetailContainer {
     padding: 9rem 0 0 0 !important;
@@ -79,8 +79,8 @@ body {
     flex: none !important;
     height: 30vh !important;
     width: 95% !important;
-    margin-bottom: 3rem !important;
 
+    margin-bottom: 4rem !important;
   }
   .detailsContainer {
     margin: 0 !important;
@@ -98,5 +98,30 @@ body {
   }
   .detailsContainer .companyrecord {
     justify-content: center !important;
+  }
+  .locationstickyrecord {
+    font-size: 0.6rem !important;
+    text-align: left !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  .locationrecord {
+    font-size: 0.5rem !important;
+    text-align: left !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  .viscontainer {
+    margin: 1rem !important;
+    width: 90% !important;
+    padding: 1rem !important;
+
+    box-sizing: border-box !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+  .distanceContainer{
+    width: 100% !important;
+    flex: none !important;
   }
 }

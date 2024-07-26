@@ -2,6 +2,7 @@
 
 const locationTableStyles = {
   companytableouter: {
+    fontSize:"0.8rem",
     display: "flex",
     flex: 1,
     width: "100%",

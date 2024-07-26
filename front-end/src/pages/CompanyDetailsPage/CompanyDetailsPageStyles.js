@@ -10,6 +10,12 @@ const companyDetailsPageStyles = {
     height: "80%",
   },
 
+  icon: {
+    color: "#BEC6A0",
+    display: "none",
+    fontSize: "2rem",
+  },
+
   title: {
     color: "#708871",
     fontSize: "2rem",
@@ -42,7 +48,7 @@ const companyDetailsPageStyles = {
     justifyContent: "space-between",
     alignItems: "center",
     width: "100%",
-    height:"100%",
+    height: "100%",
     margin: 0,
     boxSizing: "border-box",
   },

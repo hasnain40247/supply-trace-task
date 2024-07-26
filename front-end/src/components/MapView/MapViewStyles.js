@@ -9,9 +9,10 @@ const mapViewStyles = {
     overflow: "hidden",
   },
   parentStyles: {
+    marginTop:"5rem",
     borderRadius: "200px",
     flex: 2,
-    height: "90%",
+    height: "100%",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
