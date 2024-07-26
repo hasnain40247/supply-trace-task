@@ -68,7 +68,13 @@ To add new npm packages:
    docker-compose build react-app
    ```
 
+## Unit Tests
 
+The unit tests can be run by navigating to the back-end and running the test_app.py script:
+   ```
+   cd back-end
+   python -m unittest test_app.py
+   ```
 
 ## Troubleshooting
 
