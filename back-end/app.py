@@ -6,8 +6,13 @@ import logging
 app = Flask(__name__)
 swagger = Swagger(app)
 
-# Logger set-up with FileHandler and level set to INFO.
-logging.basicConfig(filename='record.log', level=logging.INFO)
+# Logger set-up with StreamHandler and level set to INFO.
+handler = logging.StreamHandler()
+handler.setLevel(logging.INFO)
+formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+handler.setFormatter(formatter)
+app.logger.addHandler(handler)
+app.logger.setLevel(logging.INFO)
 
 # Variables assigned during server initialization to reduce redundant calls
 companies = pd.read_csv("./assets/companies.csv")

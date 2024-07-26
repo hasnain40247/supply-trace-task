@@ -1,0 +1,80 @@
+# Supply-Trace-Task
+
+This project sets up a company data viewer, utilizing a Flask backend API with a React frontend, all containerized using Docker.
+
+## Project Structure
+
+```
+project-root/
+│
+├── backend-end/
+│   ├── Dockerfile
+│   ├── requirements.txt
+│   └── app.py
+│
+├── front-end/
+│   ├── Dockerfile
+│   ├── package.json
+│   ├── public/
+│   └── src/
+│
+├── docker-compose.yml
+└── README.md
+```
+
+## Prerequisites
+- Python 3.x
+- Node 20.x
+- Docker
+
+## Setup Instructions
+
+1. Clone this repository:
+   ```
+   git clone git@github.com:hasnain40247 supply-trace-task.git
+   cd supply-trace-task
+   ```
+
+2. Build and run the Docker containers:
+   ```
+   docker-compose up --build
+   ```
+
+3. Access the application:
+   - Frontend: http://localhost:3000
+   - Backend API + Swagger Documentation: http://localhost:8080/apidocs
+
+## Development
+
+### Backend (Flask)
+
+The Flask backend is located in the `back-end/` directory. The main application file is `app.py`.
+
+To add new requirements:
+1. Add them to `requirements.txt`
+2. Rebuild the Docker container:
+   ```
+   docker-compose build flask-server
+   ```
+
+### Frontend (React)
+
+The React frontend is located in the `front-end/` directory.
+
+To add new npm packages:
+1. Add them to `package.json`
+2. Rebuild the Docker container:
+   ```
+   docker-compose build react-app
+   ```
+
+
+
+## Troubleshooting
+
+If you encounter any issues:
+
+1. Ensure all required ports are free (3000 for React, 8080 for Flask)
+2. Check the Docker logs or the Flask logs set up for any error messages
+3. Verify that all dependencies are correctly listed in `requirements.txt` and `package.json`
+
