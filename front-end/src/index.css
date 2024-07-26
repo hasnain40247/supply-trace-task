@@ -69,6 +69,8 @@ body {
   }
   .innerContainer {
     flex-direction: column-reverse !important;
+    margin-top:9rem !important;
+
   }
   .companyDetailContainer {
     padding: 9rem 0 0 0 !important;
@@ -77,6 +79,8 @@ body {
     flex: none !important;
     height: 30vh !important;
     width: 95% !important;
+    margin-bottom: 3rem !important;
+
   }
   .detailsContainer {
     margin: 0 !important;

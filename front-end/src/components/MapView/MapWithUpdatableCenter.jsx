@@ -1,7 +1,7 @@
 import { InfoWindow, Map, Marker } from "@vis.gl/react-google-maps";
 import React, { useState, useEffect } from "react";
 import globalStyles from "../../styles/GloblStyles";
-
+import mapViewStyles from "./MapViewStyles";
 /**
  * MapWithUpdateableCenter component
  *
