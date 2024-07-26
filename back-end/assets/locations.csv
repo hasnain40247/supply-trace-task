@@ -1,7 +1,7 @@
 location_id,company_id,name,address,latitude,longitude
-1,1,TechNova HQ,"123 Innovation Drive, San Francisco, CA 94105",37.7749,-122.4194
-2,1,TechNova R&D Center,"456 Research Park, Palo Alto, CA 94304",37.4419,-122.1430
-3,1,TechNova East Coast Office,"789 Tech Square, Cambridge, MA 02139",42.3623,-71.0890
+1,2,TechNova HQ,"123 Innovation Drive, San Francisco, CA 94105",37.7749,-122.4194
+2,2,TechNova R&D Center,"456 Research Park, Palo Alto, CA 94304",37.4419,-122.1430
+3,2,TechNova East Coast Office,"789 Tech Square, Cambridge, MA 02139",42.3623,-71.0890
 4,2,GreenLeaf HQ,"456 Sustainability Ave, Portland, OR 97201",45.5155,-122.6789
 5,2,GreenLeaf Solar Farm,"101 Sun Valley Road, Bend, OR 97701",44.0582,-121.3153
 6,2,GreenLeaf Wind Farm,"202 Breeze Way, Tillamook, OR 97141",45.4562,-123.8440
