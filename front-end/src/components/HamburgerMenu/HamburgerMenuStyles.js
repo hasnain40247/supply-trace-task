@@ -1,3 +1,6 @@
+// Define a set of styles specific to the HamburgerMenu component
+
+
 const hamburgerMenuStyles = {
 
   navbarResponsive: {

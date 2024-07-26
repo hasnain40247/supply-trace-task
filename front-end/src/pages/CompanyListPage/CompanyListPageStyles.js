@@ -1,3 +1,4 @@
+// Define a set of styles specific to the  CompanyListPage.
 const companyListPageStyles = {
   title: {
     fontSize: "4rem",

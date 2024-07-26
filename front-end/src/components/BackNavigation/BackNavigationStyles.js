@@ -1,3 +1,4 @@
+// Define a set of styles specific to the BackNavigation component
 const backNavigationStyles = {
   icon: {
     marginRight: "4px",

@@ -1,7 +1,13 @@
 import React from "react";
 import mainStyles from "./MainStyles";
 import globalStyles from "../../styles/GloblStyles";
-
+/**
+ * Main component
+ *
+ * This component renders the introduction page.
+ *
+ * @returns {JSX.Element} The Main component
+ */
 const Main = () => {
   return (
     <div style={{ ...globalStyles.container, ...mainStyles.container }} className="container">

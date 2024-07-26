@@ -1,3 +1,5 @@
+// Define a set of global styles for common components.
+
 const globalStyles = {
   container: {
     display: "flex",

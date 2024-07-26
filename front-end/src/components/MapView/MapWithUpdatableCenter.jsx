@@ -1,20 +1,39 @@
-import { InfoWindow, Map, Marker } from '@vis.gl/react-google-maps';
-import React, { useState, useEffect } from 'react';
+import { InfoWindow, Map, Marker } from "@vis.gl/react-google-maps";
+import React, { useState, useEffect } from "react";
+import globalStyles from "../../styles/GloblStyles";
 
-const MapWithUpdateableCenter = ({ initialCenter, locations, onMarkerClick, selectedLocation, onInfoWindowClose }) => {
+/**
+ * MapWithUpdateableCenter component
+ *
+ * This component renders a Google Map component with forced re-renders.
+ * This is because to utilize the map being updated with locations and
+ * being draggable, it was necessary to override defaultCenter
+ * instead of the buggy center prop.
+ *
+ * @param {Object} props - The component props
+ * @param {Object} props.initialCenter - The initial center position of the map
+ * @param {Array} props.locations - List of location objects to be displayed as markers on the map
+ * @param {function} props.onMarkerClick - Function to handle marker click events
+ * @param {Object} props.selectedLocation - The currently selected location to display in the InfoWindow
+ * @param {function} props.onInfoWindowClose - Function to handle closing the InfoWindow
+ * @returns {JSX.Element} The MapWithUpdateableCenter component
+ */
+const MapWithUpdateableCenter = ({
+  initialCenter,
+  locations,
+  onMarkerClick,
+  selectedLocation,
+  onInfoWindowClose,
+}) => {
   const [center, setCenter] = useState(initialCenter);
   const [key, setKey] = useState(0);
 
   useEffect(() => {
     if (initialCenter !== center) {
       setCenter(initialCenter);
-      setKey(prevKey => prevKey + 1);
+      setKey((prevKey) => prevKey + 1);
     }
   }, [initialCenter]);
-
-  const mapViewStyles = {
-    // Your styles here
-  };
 
   return (
     <Map
@@ -40,9 +59,7 @@ const MapWithUpdateableCenter = ({ initialCenter, locations, onMarkerClick, sele
           onCloseClick={onInfoWindowClose}
         >
           <div style={mapViewStyles.infoWindow}>
-            <p style={mapViewStyles.subtitle}>
-              {selectedLocation.address}
-            </p>
+            <p style={globalStyles.subtitle}>{selectedLocation.address}</p>
           </div>
         </InfoWindow>
       )}

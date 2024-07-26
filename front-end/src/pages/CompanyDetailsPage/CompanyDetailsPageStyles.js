@@ -1,3 +1,5 @@
+// Define a set of styles specific to the  CompanyDetailsPage.
+
 const companyDetailsPageStyles = {
   detailscontainer: {
     marginRight: "20px",

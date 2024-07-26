@@ -6,6 +6,13 @@ import CompanyListPage from "./pages/CompanyListPage/CompanyListPage";
 import CompanyDetailsPage from "./pages/CompanyDetailsPage/CompanyDetailsPage";
 import ErrorPage from "./pages/ErrorPage/ErrorPage";
 
+/**
+ * App component
+ *
+ * This is the main component that sets up routing using react-router-dom.
+ *
+ * @returns {JSX.Element} The App component
+ */
 const App = () => {
   return (
     <Router>

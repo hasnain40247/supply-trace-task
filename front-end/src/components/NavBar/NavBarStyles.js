@@ -1,3 +1,5 @@
+// Define a set of styles specific to the NavBar component
+
 const navBarStyles = {
   navbar: {
     boxSizing: "border-box",

@@ -1,7 +1,17 @@
 import { Link } from "react-router-dom";
 import companyTableStyles from "./CompanyTableStyles";
 import globalStyles from "../../styles/GloblStyles";
-
+/**
+ * CompanyTable component
+ *
+ * This component renders a table consisting of the name of the company and their main locations.
+ *
+ * @param {Object} props - The component props
+ * @param {string} props.search - The current search query
+ * @param {function} props.handleSearch - Function to handle search input changes
+ * @param {Array} props.filteredCompanies - List of companies filtered based on the search query
+ * @returns {JSX.Element} The CompanyTable component
+ */
 const CompanyTable = ({ search, handleSearch, filteredCompanies }) => {
   return (
     <div style={companyTableStyles.companytableouter} className="companytableouter">

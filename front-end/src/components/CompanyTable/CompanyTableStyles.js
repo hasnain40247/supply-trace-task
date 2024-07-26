@@ -1,3 +1,5 @@
+// Define a set of styles specific to the CompanyTable component
+
 const companyTableStyles = {
   custinput: {
     fontSize: "2rem",

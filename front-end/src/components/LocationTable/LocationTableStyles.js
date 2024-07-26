@@ -1,3 +1,5 @@
+// Define a set of styles specific to the LocationTable component
+
 const locationTableStyles = {
   companytableouter: {
     display: "flex",

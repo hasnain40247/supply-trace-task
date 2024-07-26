@@ -1,3 +1,5 @@
+// Define a set of styles specific to the NavItems component
+
 const navItemsStyles = {
   navItems: {
     width: "30%",
